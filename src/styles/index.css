@@ -9,3 +9,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.row,
+.clock {
+  font-size: 30px;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  width: fit-content;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.clock {
+  color: white;
+  font-size: 50px;
+}
